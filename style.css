@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-size: 22px;
+    background-color: blanchedalmond;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* Шапка сайту */
+.header{
+    padding: 10px 0;
+    background-color: rgb(221, 103, 82);
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-img{
+    width: 120px;
+}
+.header-list{
+    display: flex;
+    gap: 40px;
+}
+.header-link{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+.header-link:hover{
+    color: blanchedalmond;
+}
+/* Головна секція */
+.hero{
+    padding: 50px 0;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-img{
+    width: 550px;
+    padding-right: 50px;
+}
+.hero-title{
+    font-size: 48px;
+    color: rgb(113, 27, 12);
+}
+/* Друга секція */
+.dough{
+    padding: 50px;
+    background-color: rgb(225 ,  167,  123);
+}
+.dough-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dough-img{
+    width: 550px;
+    padding-right: 50px;
+}
+.dough-title{
+    color: rgb(113, 27, 12);
+}
+.dough-list{
+    list-style: disc;
+    margin-left: 50px;
+}
+.dough-img{
+    width: 550px;
+}
+/* Футер */
+.footer{
+    padding: 10px 0;
+    background-color: rgb(221, 103, 82);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-img{
+    width: 120px;
+}
+/* Третя секція */
+.cooking{
+    padding: 50px;
+    background-color: blanchedalmond;
+}
+.cooking-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.cooking-img{
+    width: 550px;
+}
+.cooking-title{
+    color: rgb(113, 27, 12);
+}
+.cooking-list{
+    list-style: disc;
+}
+.cooking-text{
+    flex: 1;
+}
+.cooking-text-content{
+    flex: 1;
+}
+
